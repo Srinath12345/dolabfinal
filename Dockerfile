@@ -1,5 +1,5 @@
 # Dockerfile
-FROM openjdk:11-jdk-slim
+FROM openjdk:11
 WORKDIR /app
 COPY /target/*.jar /app
 EXPOSE 8081
